@@ -6,7 +6,7 @@
 /*   By: ymazini <ymazini@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 14:29:01 by ymazini           #+#    #+#             */
-/*   Updated: 2024/11/25 23:07:07 by ymazini          ###   ########.fr       */
+/*   Updated: 2024/11/26 17:27:28 by ymazini          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,4 @@ int	ft_puthex_pf(unsigned long nbr, size_t *count, char c)
 	{
 		return (ft_putchar_pf(LOW_HEX[nbr % 16], count));
 	}
-	return (0);
 }

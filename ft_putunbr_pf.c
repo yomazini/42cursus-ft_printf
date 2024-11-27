@@ -6,13 +6,13 @@
 /*   By: ymazini <ymazini@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 21:18:47 by ymazini           #+#    #+#             */
-/*   Updated: 2024/11/25 23:08:00 by ymazini          ###   ########.fr       */
+/*   Updated: 2024/11/26 21:02:05 by ymazini          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putunbr_pf(unsigned long n, size_t *count)
+int	ft_putunbr_pf(unsigned int n, size_t *count)
 {
 	int	res;
 
