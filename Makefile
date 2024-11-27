@@ -28,3 +28,4 @@ re: fclean all
 
 test:all
 	$(CC) $(CFLAGS) main.c $(NAME) -o myprogram  && ./myprogram
+	
