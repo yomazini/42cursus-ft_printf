@@ -38,9 +38,38 @@ Welcome to my implementation of `ft_printf` - a custom printf function that repl
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Variadic Function
+- Variadic Function (Recommended Resources Below)
 - GCC compiler
 - Make
+
+---
+## **Variadic Function Resources** 🌟  
+
+Below is a list of resources to help you master this topic, from detailed explanations to practical implementations.
+
+## **📺 Video Tutorials**  
+
+### 1. [Variadic Functions by Oceano](https://www.youtube.com/watch?v=7Sph8JlRo0g)  
+- 🎥 **Duration**: Approx. 17 minutes  
+- 🌊 **Overview**: Explores the basics of variadic functions, their syntax, and their practical applications. Perfect for beginners who enjoy a straightforward teaching style.
+
+### 2. [Variadic Functions by Code Vault](https://www.youtube.com/watch?v=oDC208zvsdg)  
+- 🎥 **Duration**: Approx. 13 minutes  
+- 🛠️ **Overview**: A more advanced look at variadic functions, focusing on real-world coding examples and detailed implementation tips.
+
+## **📚 Written Resources**  
+
+### 3. [Variadic Functions in C on GeeksforGeeks](https://www.geeksforgeeks.org/variadic-functions-in-c/)  
+- 🌐 **Type**: Article  
+- 📝 **Overview**: Covers the theoretical foundation, with code examples illustrating how variadic functions work. Includes topics like `stdarg.h` and the use of macros for handling arguments.  
+
+## **📌 Interactive Explanation**  
+
+### 4. [Detailed Variadic Function Explanation on Miro](https://miro.com/app/board/uXjVN-42a5k=/)  
+- 🖼️ **Type**: Interactive Board  
+- 🧩 **Overview**: A visual and detailed explanation of variadic functions. Great for those who learn best through diagrams and hands-on exploration.
+
+---
 
 ### Installation
 
