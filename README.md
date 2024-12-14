@@ -1,7 +1,7 @@
 
 # 🖨️ ft_printf | 42 School Project
 
-### Because standard `printf` is too mainstream 😉
+### Because standard `printf` is too mainstream😉
 
 ![42 School Badge](https://img.shields.io/badge/42-School-blue)
 ![Norminette](https://img.shields.io/badge/Norminette-passing-success)
