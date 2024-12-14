@@ -39,5 +39,5 @@ fclean: clean
 re: fclean all
 
 test:all
-	$(CC) $(CFLAGS) main.c $(NAME) -o myprogram  && ./myprogram
+	$(CC) $(CFLAGS) main.c $(NAME) -o  myprogram  && ./myprogram
 	
