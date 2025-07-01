@@ -23,24 +23,9 @@ SRC = ft_printf.c ft_putunbr_pf.c ft_putchar_pf.c ft_putstr_pf.c ft_putnbr_pf.c 
 OBJS = $(SRC:.c=.o)
 
 
-define PRINTF_BANNER
-	@echo "$(CYAN)"
-	@echo "██████╗ ██████╗ ██╗███╗   ██╗████████╗███████╗"
-	@echo "██╔══██╗██╔══██╗██║████╗  ██║╚══██╔══╝██╔════╝"
-	@echo "██████╔╝██████╔╝██║██╔██╗ ██║   ██║   █████╗  "
-	@echo "██╔═══╝ ██╔══██╗██║██║╚██╗██║   ██║   ██╔══╝  "
-	@echo "██║     ██║  ██║██║██║ ╚████║   ██║   ██║     "
-	@echo "╚═╝     ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝     "
-	@echo "$(RESET)"
-endef
-
-CYAN = \033[1;36m
-RESET = \033[0m
-
 all: $(NAME)
 
 %.o: %.c $(HEADER)
-		$(PRINTF_BANNER)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJS)
